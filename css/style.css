@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: #161616;
+    color: #ececec;
+    margin: 0 auto;
+}
+header{
+    height: 100x;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+    position: relative;
+}
+label.menu{
+    display: none;
+}
+input.menu-button{
+    background-image: url(../images/menubutton.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+.welcome{
+    height: 800px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+    text-align: center;
+}
+    .welcome-text{
+        color: #ececec;
+        position: absolute;
+        top: 75%;
+        width: 100%;
+        text-align: center;
+    }
+        .welcome-text > h1{
+            font-size: xx-large;
+        }
+        .welcome-text > h2{
+            font-size: medium;
+        }
+.rland{
+    background-color: #161616;
+    color: #ececec;
+}
+.article{
+    padding-inline: 10px;
+}
+.chung{
+    height: 350px;
+}
+    .chung-img{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+        .chung-img > img{
+            position: absolute;
+            left: 50px;
+        }
+.cookie{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+    .cookie-img{
+        top: 30;
+        position: relative;
+        width: 100%;
+    }
+    .cookie-info{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+.coffee{
+    height: 350px;
+    text-align: right;
+}
+    .coffee-img{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+        .coffee-img > img{
+            position: absolute;
+            right: 80px;
+        }
+.nawabari{
+    height: 600px;
+    background-color: #161616;
+    position: relative;
+    color: #ececec;
+    text-align: center;
+}
+    .nawabari-img{
+        height: 500px;
+        background:url(../images/b14.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+    }
+        .nawabari-img > h1{
+            top: 20%;
+            width: 100%;
+            position: absolute;
+            font-size: xx-large;
+        }
+    .nawabari-info{
+        top: 60%;      
+        font-size: small;
+    }
+footer{
+    height: 110px;
+    display: block;
+    justify-content: center;
+    background-color: #575757;
+    color: #ececec;
+    text-align: center;
+}
+footer > small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
