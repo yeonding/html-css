@@ -2,15 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
-.top{
-    background-color: #161616;
-    color: #ececec;
-    margin: 0 auto;
-}
+
 header{
     height: 100x;
     margin: 0 auto;
     display: flex;
+    color: #ececec;
     justify-content: space-between;
     background-color: #161616;
     position: relative;
@@ -18,6 +15,11 @@ header{
 label.menu{
     display: none;
 }
+
+header h1{
+    margin-left: 30px;
+}
+
 input.menu-button{
     background-image: url(../images/menubutton.jpeg);
     background-repeat: no-repeat;
@@ -59,6 +61,7 @@ input.menu-button{
     padding-inline: 10px;
 }
 .chung{
+    margin-left: 30px;
     height: 350px;
 }
     .chung-img{
@@ -66,10 +69,7 @@ input.menu-button{
         width: 100%;
         margin: 0 auto;
     }
-        .chung-img > img{
-            position: absolute;
-            left: 50px;
-        }
+
 .cookie{
     height: 400px;
     width: 100%;
@@ -86,6 +86,7 @@ input.menu-button{
         width: 100%;
     }
 .coffee{
+    margin-right: 30px;
     height: 350px;
     text-align: right;
 }
@@ -94,10 +95,7 @@ input.menu-button{
         width: 100%;
         margin: 0 auto;
     }
-        .coffee-img > img{
-            position: absolute;
-            right: 80px;
-        }
+ 
 .nawabari{
     height: 600px;
     background-color: #161616;
@@ -123,15 +121,30 @@ input.menu-button{
         font-size: small;
     }
 footer{
-    height: 110px;
-    display: block;
+    margin-top: -30px;
+    height: 140px;
     justify-content: center;
     background-color: #575757;
     color: #ececec;
     text-align: center;
 }
-footer > small{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+footer ul{
+    list-style: none;
+    padding-top: 20px;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer ul li:first-child{
+    border: 1px solid white;
+    border-radius: 10%;
+    width: 150px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
 }
